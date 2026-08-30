@@ -7,16 +7,16 @@ class Tuff < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/kannandreams/tuff/releases/download/v0.1.7/tuff-aarch64-apple-darwin.tar.gz"
-      sha256 "be1686c1b53b7789f565647a34f76cdeb41e1f94b13837da9a60f0da43d4add7"
+      sha256 "3463c00c18f0452ae1ad0b5f5614c36076963888bece8f44ec624ff6f43b91b2"
     else
       url "https://github.com/kannandreams/tuff/releases/download/v0.1.7/tuff-x86_64-apple-darwin.tar.gz"
-      sha256 "fa4770fad7afe89def95c5331fd506ef84186a6cbe444626eb9b1d8ae806be52"
+      sha256 "cc6c70389537f8cb6634e19963cd25228870f8d022922f5f82515463677bfeff"
     end
   end
 
   on_linux do
     url "https://github.com/kannandreams/tuff/releases/download/v0.1.7/tuff-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "03b40de4710465729dcffa82c4dc1af270681eb4c1504c743ba94d797c653c47"
+    sha256 "dba26685cf3637d597d0e507d47d837e5c449e8c4577ee97fadbe4e11b2564d4"
   end
 
   def install
