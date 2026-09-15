@@ -2,21 +2,21 @@ class Tuff < Formula
   desc "Capability lifecycle manager for coding agents"
   homepage "https://github.com/kannandreams/tuff"
   license "MIT"
-  version "0.10.2"
+  version "0.11.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kannandreams/tuff/releases/download/v0.10.2/tuff-aarch64-apple-darwin.tar.gz"
-      sha256 "4ec1d63a9b2130eac464e190991b2d042e321a9a213c7850e404ca6d6dbe3ebd"
+      url "https://github.com/kannandreams/tuff/releases/download/v0.11.0/tuff-aarch64-apple-darwin.tar.gz"
+      sha256 "de55aa361479dfcc1b67717aee537a6ecc9732d9a8032cc2f3914575690d16c2"
     else
-      url "https://github.com/kannandreams/tuff/releases/download/v0.10.2/tuff-x86_64-apple-darwin.tar.gz"
-      sha256 "478f900bd75a886dce78718d2932750af1a9073b151af44869f57800b4674e66"
+      url "https://github.com/kannandreams/tuff/releases/download/v0.11.0/tuff-x86_64-apple-darwin.tar.gz"
+      sha256 "76d9714b81095440829e39c8712426ab354568e94881ab36dc849cfd441f8de2"
     end
   end
 
   on_linux do
-    url "https://github.com/kannandreams/tuff/releases/download/v0.10.2/tuff-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "754faecb3adb42a6b0ec7359d0110ccb7a5f49dc101808cbf4faa5c510303a46"
+    url "https://github.com/kannandreams/tuff/releases/download/v0.11.0/tuff-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "00f9d12a6d409bfc03bef3aec85a82a9bc6b7be9d5f367d264c02edbff100470"
   end
 
   def install
