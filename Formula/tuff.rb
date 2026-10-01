@@ -2,21 +2,21 @@ class Tuff < Formula
   desc "Manage and govern agent capabilities"
   homepage "https://github.com/kannandreams/tuff"
   license "MIT"
-  version "0.13.0"
+  version "0.14.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kannandreams/tuff/releases/download/v0.13.0/tuff-aarch64-apple-darwin.tar.gz"
-      sha256 "f9ba1e6a85c6e3f84980eca8da0d8611de29812f9d68bc2af42602574ddd5e60"
+      url "https://github.com/kannandreams/tuff/releases/download/v0.14.0/tuff-aarch64-apple-darwin.tar.gz"
+      sha256 "7773b525bf60e0b10bfc6b060e8f699daca8c575adc42e54b4e77a62be6f1f48"
     else
-      url "https://github.com/kannandreams/tuff/releases/download/v0.13.0/tuff-x86_64-apple-darwin.tar.gz"
-      sha256 "d439292254f75d6ff7d4c48f60d72e9f32c410e029c2ba4cfb8abbe14f429900"
+      url "https://github.com/kannandreams/tuff/releases/download/v0.14.0/tuff-x86_64-apple-darwin.tar.gz"
+      sha256 "0823e9077eb8aa6afcc6826dd66d98cfce5ec878a62a62fe74683fb60c3ffd2a"
     end
   end
 
   on_linux do
-    url "https://github.com/kannandreams/tuff/releases/download/v0.13.0/tuff-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "52c405218118b3e3555fea911334fef461894e3bcfeac2b731eca0aee2b629ff"
+    url "https://github.com/kannandreams/tuff/releases/download/v0.14.0/tuff-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "407f429eebda905a7771d21f284d65d0ba1ea1f5e09b549a31f61d6fa3e6de75"
   end
 
   def install
